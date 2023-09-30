@@ -1,0 +1,8 @@
+<h3>delete</h3>
+
+<a href="{% url "toodo:home" %}">cancle</a>
+
+<form method="POST" action="">
+    {% csrf_token %}
+    <input type='submit' name="Confirm">
+</form>
