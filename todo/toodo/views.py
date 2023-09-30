@@ -4,6 +4,7 @@ from .models import *
 from .forms import *
 
 
+# functions
 def index(request):
     task = Task.objects.all()
     form = TaskForm()
